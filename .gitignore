@@ -2,3 +2,4 @@
 *.wav
 !audio_dataset_cortado/*
 dataset_tfrecord/
+*hdf5
