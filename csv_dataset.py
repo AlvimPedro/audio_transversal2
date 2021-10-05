@@ -13,8 +13,9 @@ for diretorio, subpastas, arquivos in os.walk(dir):
         path = os.path.join(diretorio, arquivo)
         label = arquivo.split('_')[0]
 
-        line = path+','+label+'\n'
+        if label != '3':
+            line = path+','+label+'\n'
 
-        f.write(line)
+            f.write(line)
         
 f.close()
