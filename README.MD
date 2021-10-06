@@ -17,4 +17,5 @@ pip install ludwig[audio]
 pip install petastorm
 sudo apt-get install libjack-jackd2-dev portaudio19-dev
 pip install PyAudio
+pip install mysql-connector-python
 ```
