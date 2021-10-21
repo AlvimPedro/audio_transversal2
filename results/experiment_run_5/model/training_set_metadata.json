@@ -21,7 +21,7 @@
         ],
         "sampling_rate_in_hz": 44100
     },
-    "checksum": "ZuDps8z1Y2dbnmTOnXiovQ==",
+    "checksum": "ZKrRTQ0_eoixIVMyClUFsg==",
     "data_train_hdf5_fp": "audio_dataset.training.hdf5",
     "dataset_src": "audio_dataset.csv",
     "label": {
@@ -30,8 +30,7 @@
             "4",
             "0",
             "1",
-            "2",
-            "5"
+            "2"
         ],
         "preprocessing": {
             "computed_fill_value": "<UNK>",
@@ -45,7 +44,6 @@
             "1": 226,
             "2": 122,
             "4": 549,
-            "5": 1,
             "<UNK>": 0
         },
         "str2idx": {
@@ -53,9 +51,8 @@
             "1": 3,
             "2": 4,
             "4": 1,
-            "5": 5,
             "<UNK>": 0
         },
-        "vocab_size": 6
+        "vocab_size": 5
     }
 }
