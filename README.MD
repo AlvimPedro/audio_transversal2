@@ -3,11 +3,21 @@
 ludwig experiment   --dataset audio_dataset.csv   --config_file config_file.yaml
 ```
 
+### Clonar repositório
+```
+git clone https://github.com/AlvimPedro/audio_transversal2.git
+```
+
 ### Instalando miniconda
 ```
 cd audio_transversal2
 bash Miniconda3-py39_4.10.3-Linux-x86_64.sh
 ```
+Após a instalação fechar e abrir o terminal para ter efeito e então continuar:
+```
+conda config --set auto_activate_base false
+```
+Fechar e reabrir o terminal novamente.
 
 ### Criação do ambiente virtual com miniconda
 ```
